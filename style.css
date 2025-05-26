@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #092215 !important;
+}
+
+.navbar {
+  background-color: #0a0703 !important;
+  width: 100% !important;
+  /* color: aliceblue !important; */
+}
+
+.cover {
+  height: 70px;
+  width: 90px;
+  border-radius: 10px;
+}
+
+.nav-heading {
+  margin-left: 2rem !important;
+  font-family: cursive;
+  font-weight: 600;
+  color: wheat;
+}
+
+.input-group {
+  width: 90% !important;
+  margin: auto !important;
+  margin-top: 3rem !important;
+  border-radius: 5px;
+  /* border: 10px solid #33160a; */
+}
+
+.input-group input {
+  border-radius: 5px !important;
+  background-color: aliceblue;
+}
+
+.add-title {
+  color: wheat;
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: 900 !important;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#title {
+  margin-top: 2rem;
+}
+
+.big-input {
+  height: 160px !important;
+}
+
+.btn {
+  background-color: #0a0703 !important;
+  /* margin-left: 4.5rem !important; */
+  /* border: 30px !important; */
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.table {
+  width: 90% !important;
+  margin: auto !important;
+}
+
+.glitter {
+  color: #fff;
+  background: #262626;
+  position: relative;
+}
+
+.glitter::after,
+.glitter::before {
+  content: "";
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 400%;
+  position: absolute;
+  top: -2px;
+  border-radius: 5px;
+  left: -2px;
+  z-index: -1;
+  animation: animated-shadow 10s linear infinite alternate;
+}
+
+.glitter::after {
+  filter: blur(30px);
+}
+
+@keyframes animated-shadow {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.delete {
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 5px solid brown;
+}
+
+.nav-item .nav-link {
+  color: wheat !important;
+  margin-left: 2rem !important;
+}
+
+.background {
+  background-color: #300049 !important;
+}
+
+
