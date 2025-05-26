@@ -140,7 +140,11 @@ body {
 }
 
 @media(max-width: 768px) {
-  body {
+  * {
     font-family: sans-serif !important;
+  }
+
+  .nav-heading {
+    margin-top: 12px;
   }
 }
